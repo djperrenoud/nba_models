@@ -1,3 +1,14 @@
+#' Create and Customize Scatterplot
+#'
+#' This function creates a scatterplot with customized aesthetics using ggplot2.
+#'
+#' @param data A dataframe containing the data.
+#' @return A customized scatterplot.
+#' @import ggplot2
+#' @import ggrepel
+#' @import plotly
+#'
+#' @export
 data <- read.csv("21_22_data.csv")
 library(ggplot2)
 library(ggrepel)
